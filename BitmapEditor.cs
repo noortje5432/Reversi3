@@ -14,7 +14,7 @@ public class BitmapEditor : Form
         this.StartPosition= FormStartPosition.CenterScreen;
 
         viewer = new BitmapControl();
-        viewer.Location = new Point(10,40);
+        viewer.Location = new Point(10,200);
         viewer.Size = new Size(600, 600);
 
         Button help = new Button();

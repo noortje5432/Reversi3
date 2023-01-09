@@ -11,7 +11,6 @@ public class BitmapControl : UserControl
     {
         model = new Bitmap(600, 600);
         Paint += teken;
-        Resize += vergroot;
         MouseClick += klik;
         MouseMove += beweeg;
     }
@@ -27,7 +26,7 @@ public class BitmapControl : UserControl
     {
         int w = 6;//model.Breedte;
         int h = 6;//model.Hoogte;
-        int d = 50;
+        int d = 70;
         for (int y = 0; y <= 7; y++)
             e.Graphics.DrawLine(Pens.LightGray, 0, y * d, w * d, y * d);
         for (int x = 0; x <= 7; x++)
