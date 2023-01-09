@@ -37,7 +37,7 @@ public class BitmapControl : UserControl
             {
                 Brush b;
                 if (model.vraagKleur(x, y))
-                    b = Brushes.Red;
+                    b = Brushes.DarkRed;
                 else b = Brushes.White;
                 e.Graphics.FillEllipse(b, x * d + 1, y * d + 1, d - 1, d - 1);
             }
